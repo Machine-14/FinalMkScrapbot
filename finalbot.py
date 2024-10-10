@@ -12,8 +12,8 @@ from sentence_transformers import SentenceTransformer, util
 app = Flask(__name__)
 
 # Replace with your actual LineBotApi and WebhookHandler keys
-line_bot_api = LineBotApi('UnWI5iWcYhUSfMPIIXxjXIPb39+L7+szaa5099nc1TKhttvnUa8S02TK9kLjy439BUAwC4g9txMYrcvHrm8VmDgAAgZfYFMJjpHPOl2hUQJqzVha9cZQLgM+cYBUjMEFW3Bw4+geTdi+Z4qZUJJ9dQdB04t89/1O/w1cDnyilFU=')  # Replace with your actual token
-handler = WebhookHandler('Y6279f9a714dfe3510ea8ddd2dc7ac7a7')  # Replace with your actual secret
+line_bot_api = LineBotApi('token')  # Replace with your actual token
+handler = WebhookHandler('secret')  # Replace with your actual secret
 
 
 # การตั้งค่า Neo4j
